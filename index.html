@@ -51,7 +51,6 @@
 </head>
 <body class="leading-normal tracking-normal">
 
-    <!-- Header -->
     <header class="fixed w-full z-30 top-0 text-white glass-effect">
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
             <div class="pl-4 flex items-center">
@@ -69,6 +68,7 @@
                     <li class="mr-3"><a class="inline-block py-2 px-4 text-white no-underline hover:text-gray-200 hover:text-underline" href="#about">About</a></li>
                     <li class="mr-3"><a class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#experience">Experience</a></li>
                     <li class="mr-3"><a class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#projects">Projects</a></li>
+                    <li class="mr-3"><a class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#articles">Articles</a></li>
                     <li class="mr-3"><a class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#activities">Activities</a></li>
                     <li class="mr-3"><a class="inline-block text-white no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#contact">Contact</a></li>
                 </ul>
@@ -77,7 +77,6 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section class="min-h-screen flex items-center">
             <div class="container px-8 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                 <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
@@ -100,7 +99,6 @@
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="py-20">
             <div class="container max-w-5xl mx-auto px-8">
                 <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center section-heading">
@@ -110,11 +108,9 @@
                     <div class="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
                 <div class="flex flex-col md:flex-row items-center md:space-x-12">
-                    <!-- Your Photo -->
                     <div class="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">
                         <img src="mo.jpg" alt="Mostafa Elsaeed" class="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-teal-300 shadow-lg">
                     </div>
-                    <!-- About Text -->
                     <div class="w-full md:w-2/3">
                         <p class="text-gray-400 text-lg text-center md:text-left">
                             I am a results-oriented Cybersecurity Engineer with a 3.75 GPA, combining a strong academic foundation with practical experience in defending critical digital infrastructures. I excel in threat detection, incident response, and hardening networks using enterprise tools like IBM QRadar, Cisco DNA, and Forcepoint Firewalls. As a proven leader and cybersecurity club president, I am driven to build resilient security solutions and thrive in high-stakes environments.
@@ -124,7 +120,6 @@
             </div>
         </section>
 
-        <!-- Experience Section -->
         <section id="experience" class="py-20">
             <div class="container mx-auto px-8">
                 <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center section-heading">
@@ -135,7 +130,6 @@
                 </div>
 
                 <div class="max-w-4xl mx-auto">
-                    <!-- SOC Analyst -->
                     <div class="mb-8 p-6 rounded-lg glass-effect">
                         <div class="flex justify-between items-center mb-2">
                              <h3 class="text-2xl font-bold accent-color">SOC Analyst</h3>
@@ -148,7 +142,6 @@
                             <li>Implement advanced security methodologies including Automation, SOAR, and OSINT.</li>
                         </ul>
                     </div>
-                    <!-- IT Specialist -->
                     <div class="mb-8 p-6 rounded-lg glass-effect">
                         <div class="flex justify-between items-center mb-2">
                              <h3 class="text-2xl font-bold accent-color">IT Specialist</h3>
@@ -160,7 +153,6 @@
                             <li>Provided critical technical support to students during the university admissions process.</li>
                         </ul>
                     </div>
-                    <!-- Cybersecurity Intern -->
                     <div class="p-6 rounded-lg glass-effect">
                          <div class="flex justify-between items-center mb-2">
                              <h3 class="text-2xl font-bold accent-color">Cybersecurity Intern</h3>
@@ -176,7 +168,6 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="py-20">
              <div class="container mx-auto px-8">
                 <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center section-heading">
@@ -201,8 +192,33 @@
                 </div>
             </div>
         </section>
+        
+        <section id="articles" class="py-20">
+            <div class="container mx-auto px-8">
+                <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center section-heading">
+                    Articles
+                </h2>
+                <div class="w-full mb-12">
+                    <div class="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <a href="https://medium.com/@wmostafa021/from-zero-to-hero-a-complete-guide-to-setting-up-elk-stack-with-winlogbeat-65d105050543" class="block p-6 rounded-lg glass-effect transform transition hover:scale-105 duration-300 ease-in-out hover:shadow-lg hover:shadow-teal-400/20">
+                        <h3 class="text-2xl font-bold accent-color mb-3">A Complete Guide to Setting Up ELK Stack with Winlogbeat</h3>
+                        <p class="text-gray-400">A step-by-step tutorial for installing, configuring, and troubleshooting a full logging pipeline with Elasticsearch, Kibana, and Windows Event Logs.</p>
+                    </a>
+                    <a href="https://medium.com/@wmostafa021/from-the-soc-trenches-your-ultimate-guide-to-analyzing-malicious-emails-3ad4f4943086" class="block p-6 rounded-lg glass-effect transform transition hover:scale-105 duration-300 ease-in-out hover:shadow-lg hover:shadow-teal-400/20">
+                        <h3 class="text-2xl font-bold accent-color mb-3">From the SOC Trenches: Your Ultimate Guide to Analyzing Malicious Emails</h3>
+                        <p class="text-gray-400">How analysts deconstruct phishing attacks, BEC scams, and malware threats, one email at a time.</p>
+                    </a>
+                    <a href="#" class="block p-6 rounded-lg glass-effect transform transition hover:scale-105 duration-300 ease-in-out hover:shadow-lg hover:shadow-teal-400/20">
+                        <h3 class="text-2xl font-bold accent-color mb-3">A Guide to Secure Coding Practices</h3>
+                        <p class="text-gray-400">Essential tips and best practices for developers to write more secure code and prevent common vulnerabilities like SQL injection and XSS.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <!-- Activities Section -->
+
         <section id="activities" class="py-20">
             <div class="container mx-auto px-8">
                 <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center section-heading">
@@ -212,7 +228,6 @@
                     <div class="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
                 <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Activity 1 -->
                     <div class="p-6 rounded-lg glass-effect">
                         <h3 class="text-2xl font-bold accent-color mb-2">President, Astra Cybersecurity Club</h3>
                         <p class="text-gray-400 mb-2">2024 - Present</p>
@@ -222,7 +237,6 @@
                             <li>Organized cybersecurity conferences in collaboration with other universities.</li>
                         </ul>
                     </div>
-                    <!-- Activity 2 -->
                     <div class="p-6 rounded-lg glass-effect">
                         <h3 class="text-2xl font-bold accent-color mb-2">Volunteer & Member</h3>
                         <p class="text-gray-400 mb-2">ASTF (2017-2020) & IEEE (2022-Present)</p>
@@ -236,7 +250,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="py-20">
             <div class="container max-w-4xl mx-auto px-8 text-center">
                  <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center section-heading">
@@ -279,6 +292,9 @@
                         </li>
                          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                             <a href="#projects" class="no-underline hover:underline text-gray-400 hover:text-pink-500">Projects</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#articles" class="no-underline hover:underline text-gray-400 hover:text-pink-500">Articles</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                             <a href="#activities" class="no-underline hover:underline text-gray-400 hover:text-pink-500">Activities</a>
